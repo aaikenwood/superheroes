@@ -38,7 +38,8 @@ values ('Martial Arts'),
 ('Marksmanship'),
 ('Induce dizziness'),
 ('Swordsmanship'),
-('Acrobatics');
+('Acrobatics'),
+('Explaining the rules of Cambio');
 
 
 insert into team(teamname, objective)
@@ -46,7 +47,8 @@ values ('JLA', 'Protect the world'),
 ('JSA', 'Defeat the Nazis'),
 ('Birds of Prey', 'Fight crime (without men)'),
 ('Task Force X', "Follow Waller's orders or die"),
-('Teen Titans', 'Teach young superheroes to be their best');
+('Teen Titans', 'Teach young superheroes to be their best'),
+('Lloyds Banking Group', 'Helping Britain Prosper');
 
 insert into hero(hero_name, alias, ability_id, team_id)
 values ('Bruce Wayne', 'Batman',1,1),
@@ -59,4 +61,5 @@ values ('Bruce Wayne', 'Batman',1,1),
 ('Cecil Adams', 'Count Vertigo',8,4),
 ('Damian Wayne', 'Robin',9,5),
 ('Dick Grayson', 'Nightwing',10,5)
+('Alex Gravener', 'Glex Aravener', 11, 6)
 ;
